@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style*/
+
+body {
+	
+	font-family: tw cen mt, sans-serif;
+	background-image: url(wheat.png);
+
+}
+
+.topbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 45px;
+	background-color: #20B2AA;
+
+}
+
+#header{
+	margin: 15px auto;
+	padding: 0;
+	font-weight: bold;
+	float: right;
+}
+
+#header li{
+	display: inline;
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 11px;
+
+}
+
+#header li a{
+	border-left: 1px solid rgba(0, 0, 0, 0.2);
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+	color: #eaeaea;
+	text-decoration: none;
+	padding: 5px;
+	padding-left: 8px;
+}
+
+#header li a:hover{
+	background: white;
+	color: #20B2AA;
+
+}
+#header span{
+	margin-right: 5px;
+}
+
+.topbar h1 {
+	font-size: 12px;
+	margin-top: 18px;
+	color: white;
+	margin-left: 10px;
+	font-weight: bold;
+
+}
+
+.container {
+	width: auto;
+	height: 500px;
+	margin: auto;
+	
+	margin-right: 14px;
+	margin-left: 14px;
+	background-color: #eaeaea;
+}
+
+.main h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 45px;
+	padding-top: 250px;
+
+}
+
+.footer {
+	background-color: #20B2AA;
+	padding: 20px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 15px;
+}
+
+.footer .copy{
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	color: #eaeaea;
+	font-family: arial;
+}
